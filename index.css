@@ -1,0 +1,190 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family:serif;
+}
+body{
+    background-image: url("./images/bg3blackRec.jpg");
+    background-size: cover;
+}
+.navBar{
+    height: 5rem;
+    /* border:0.25rem solid white; */
+    color: aliceblue;
+    display: flex; 
+    align-items: center;
+}
+.logo{
+    width: 12%;
+    display: flex;
+
+}
+.logo-img{
+    height: 5rem;
+    width: 18rem;
+    background-image: url("./images/loogooo.png");
+    background-size: cover;
+}
+
+.logo h3{
+    padding-top: 1rem;
+    padding-left: 0.34rem;
+}
+.navOptions
+{
+    width: 40%;
+    display: flex;   
+    align-items: center; 
+}
+
+.optButton
+{
+    height: 3.5rem;
+    width: 8rem;
+    background: none;
+    font-size: 1.1rem;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    /* outline: none; */
+    position: relative;
+    display: inline-block; /* Ensures proper inline layout for buttons */
+
+
+}
+
+.optButton:hover{
+    color:rgb(255, 160, 126);
+}
+.optButton::after {
+    content: ""; /* Adds an empty pseudo-element */
+    position: absolute; /* Position it relative to the button */
+    bottom: 0; /* Align to the bottom of the button */
+    left: 0; /* Start from the left */
+    width: 0; /* Initial width is 0 */
+    height: 5px; /* Line thickness */
+    /* color:coral; */
+    background: rgb(254, 165, 220); /* Color of the underline */
+    transition: width 0.5 s ease; /* Smooth animation */
+  }
+  
+  .optButton:hover::after {
+    width: 100%; /* Expand underline to full width */
+  }
+
+.register
+{
+    margin-left:30%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.register button{
+    margin-left: 0.85rem;
+    height: 2.5rem;
+    width: 6.5rem;
+    background-color: rgb(223, 176, 211);
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 23px;
+    
+}
+
+.login:hover{
+    cursor: pointer;
+    box-shadow: 0 0 12px 5px rgba(195, 166, 236, 0.8);
+    color:rgb(192, 246, 197);
+    font-size:large;
+}
+.sign-up:hover{
+    cursor:pointer;
+    box-shadow: 0 0 12px 5px rgba(229, 166, 236, 0.8);
+    color:rgb(198, 242, 251);
+    font-size:large;
+}
+.heading
+{
+    margin-top: 4rem;
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+    height: 10rem;
+    width: 65rem;
+    color:rgb(243, 210, 171);
+    left:34.78rem;
+    text-align: center;
+}
+
+.heading-main
+{
+    margin-left: 1rem;
+    width: 45srem;
+    padding: 8px;
+    display: inline-block;
+    background: rgb(88, 14, 46);
+    transform: skewX(-30deg);
+}
+.heading-main h2{
+    transform: initial;
+    transform: skewX(30deg);
+}
+.searchBar{
+    height: 2.8rem;
+    width: 35.77rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:30rem;
+}
+
+.search-input
+{
+    height: 2.76rem;
+    width: 33rem;
+    border: none;
+    border-radius: 23px;
+    background-image: linear-gradient(rgb(209, 165, 236),rgb(250, 213, 232));
+}
+
+.search-input:hover{
+    border: none;
+    box-shadow: 0 0 3px 3px rgba(198, 157, 255, 0.8);
+    color:rgb(192, 246, 197);
+    font-size:large;
+}
+.search-icon
+{
+    margin:0.25rem;
+    height: 2.76rem;
+    width: 2.9rem;
+    border-radius: 17px;
+    background-color: rgba(255, 1, 208, 0.321);
+    color: white;
+    size: 1.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon:hover{
+    cursor: pointer;
+    background-color: rgba(248, 75, 216, 0.301);
+    color:rgb(192, 246, 197);
+    font-size:large;
+}
+
+.video{
+    margin-top:7rem;
+    margin-left: 30rem;
+    height: 20rem;
+    width: 32.4rem;
+    border: 0.18rem solid aqua;
+}
+.para{
+    margin-top:4rem;
+    margin-left: 30rem;
+    width: 32.4rem;
+    height: 25rem;
+    border: 0.18rem solid aqua;
+}

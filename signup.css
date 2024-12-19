@@ -1,0 +1,70 @@
+body{
+    background-image: url("./images/bgBlackgrey.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-div
+{
+    margin: 3rem 5rem;
+    height: 36rem;
+    width: 33rem;
+    background: rgb(213,180,243);
+    background-image: url("./images/greyside.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.home{
+    height: 2rem;
+    width: 4.56rem;
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home i{
+    margin-right: 0.25rem;
+    height: 1.2rem;
+}
+
+h1{
+      margin-top: 1rem;
+}
+
+.form-div
+{
+    margin-top: 3rem;
+}
+.form-input
+{
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 20rem;
+    border: none;
+    border-radius: 23px;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(211, 221, 252));
+}
+
+.signup-button, .login-button
+{
+    margin-top: 2rem;
+    height: 2.6rem;
+    width: 6rem;
+    border: none;
+    background-image: linear-gradient(rgba(239, 99, 99, 0.826),rgb(144, 171, 250));  
+    /* background-image: linear-gradient(rgba(58, 59, 63, 0.826),rgb(0, 0, 0)); */
+    color: rgb(17, 17, 16);
+    font-weight:bolder;
+}
+.have-account{
+    margin-top: 4.5rem;
+    color: rgb(3, 0, 104);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
