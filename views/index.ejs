@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipCrux </title>
+    <link rel = "stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navBar">
+                 <div class="logo">
+                    <div class="logo-img">
+                        
+                    </div>
+                    <h3 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 1.58rem;;">ClipCrux</h3>
+                 </div>
+                 <div class = "navOptions">
+                    <form action="/home/profile" method="GET">
+                    <button class = "optButton" style="width: 6rem;">Profile</button>
+                    </form>
+                    <button class = "optButton" style="width: 6rem;">About</button>
+                    <button class = "optButton" style="width: 8rem;">Downloads</button>
+                 </div>
+                 <div class = "register">
+                    <form action="/home/login" method="Get">
+                    <button class = "login">Log In</button>
+                    </form>
+                    <form action="/home/signUp" method="Get">
+                    <button class = "sign-up" style="background-color: rgb(179, 136, 219);" >Sign Up</button>
+                    </form>
+                 </div>
+            </div>
+            <div class = "heading">
+                <h1 class="h1" style="font-size: 3.7rem;">Skip The Lengthy Videos!! </h1> <br> <br>
+                <div class = "heading-main">
+                     <h2 class="h2" style="font-size: 3rem;">" Watch Less, Understand More "</h2> 
+                </div>
+            </div>
+            <div class="searchBar">
+                <form action="/home/show" method="POST" style="display: flex;">
+                <input class="search-input" name="url" style="color: rgba(204, 188, 204, 0.664); font-size:0.9rem;" type = "text" placeholder="      paste your URL here " >
+                <button type="submit" class="search-icon" style="border: none;"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            </div>
+            <!-- body content -->
+                <div class="video-div">
+                    <video autoplay muted loop id="myVideo" >
+                        <source src="/video/siteVideo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                      </video> 
+                      <div class="video-para" style="color: white;">
+                        <div>
+                          <p>ClipCrux where Crux = the essential point and as it is combined with Clip called CLIPCRUX</p> <br>
+                          <p>This is a WebSite which will take URL of the YouTube video and give the summarized content of it.
+                            It will help us to reduce out time of watching long videos where we only want to know the main content of the video.
+                          </p>
+                        </div>
+                      </div>                     
+                </div>           
+            <div class  = "how-work">
+                <div class="para" style="color: white;">
+                    <div style="display: flex; gap: 1rem;">
+                        <img style= " height:25px; width: 25px; "   src="/images/bull.png" alt="">
+                        <h1>Enter your url and click on search button</h1>
+                    </div>
+                    <div style="display: flex; gap: 1rem;">
+                        <img style= " height:25px; width: 25px; "   src="/images/bull.png" alt="">
+                        <h1>Get yor Summerization of the provided url</h1>
+                    </div>
+                    <div style="display: flex; gap: 1rem;">
+                        <img style= " height:25px; width: 25px; "   src="/images/bull.png" alt="">
+                        <h1>Go back to home page and use it infinite number of time</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "/js/index.js"></script>
+</body>
+</html>

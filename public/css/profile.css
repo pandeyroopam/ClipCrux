@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("/images/sidebarimg.jpeg");
+    background-size: cover;
+    color: #fff;
+    padding-top: 20px;
+  }
+  
+  .profile-img
+  { 
+    margin-top: 2rem;
+    margin-left: 4.54rem;
+    height: 8rem;
+    width: 7rem;
+    border-radius: 70px;
+    background-image: linear-gradient(rgba(206, 226, 255, 0.826),rgb(250, 186, 242));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pro-img {
+    margin-top: 1rem;
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 20px;
+    background-image: url("/images/3ddd.png");
+    background-size: cover;
+
+  }
+
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    height: 2rem;
+    text-align: center;
+
+  }
+  
+  .sidebar ul li a {
+    color: #f0f0f0;
+    text-decoration:none ;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    font-size: large;
+    border-radius: 4px;
+    color:#ffb0b0;
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    margin-left: 250.79px; /* Width of the sidebar + some spacing */
+    height: 100vh;
+    background-image: url("/images/progr.avif");
+    background-size: cover;
+  }
+
+  .username
+  {
+    padding: 4rem;
+    height: 0rem;
+    background-image: url("/images/greywhiteprofile.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }

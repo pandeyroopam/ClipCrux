@@ -1,0 +1,22 @@
+{
+  "name": "clipcrux",
+  "version": "1.0.0",
+  "description": "It is a you-tube video summarizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neekita, Roopam",
+  "license": "ISC",
+  "dependencies": {
+    "@nlpjs/basic": "^5.0.0-alpha.4",
+    "@nlpjs/nlp": "^4.27.0",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.2",
+    "method": "^2.0.0",
+    "node-summarizer": "^1.0.7",
+    "override": "^0.0.1",
+    "youtube-transcript-api": "^1.1.2"
+  }
+}
